@@ -3229,7 +3229,7 @@ button:disabled,
     line-height: 3.25em;
     margin: 0;
     position: fixed;
-    text-transform: uppercase;
+    text-transform: lowercase;
     top: 0;
     width: 100%;
     z-index: 10000;
@@ -3242,6 +3242,7 @@ button:disabled,
     height: inherit;
     line-height: inherit;
     padding: 0 1.5em;
+    text-transform: lowercase;
 }
 
 #header .logo strong {
@@ -3588,8 +3589,8 @@ body.is-preload #header.alt {
 #banner > .inner .content p {
     font-size: 0.7em;
     font-weight: 600;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
+    /* letter-spacing: 0.25em; */
+    text-transform: none;
 }
 
 #banner.major {
@@ -4063,4 +4064,11 @@ body.is-menu-visible #menu .inner {
     transform: none;
     opacity: 1;
     visibility: visible;
+}
+.alt{
+    text-transform: none !important;
+    margin-top: 10px;
+    letter-spacing: 1px !important;
+    font-weight: 400 !important;
+    
 }
