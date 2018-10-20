@@ -2915,7 +2915,7 @@ button:disabled,
 }
 
 .tiles article:hover:before {
-    opacity: 0.3;
+    opacity: 0.50;
 }
 
 .tiles article.is-transitioning {
