@@ -53,7 +53,7 @@
 
         <!-- Header -->
         <header id="header" class="alt lazy">
-            <a href="index.html" class="logo">Ben Terova</a>
+            <a href="" class="logo">Ben Terova</a>
 
             <nav>
                 <a href="#contactme">contact me</a>
@@ -79,7 +79,7 @@
 
         <!-- Banner -->
         <section id="banner" class="major">
-            <div class="inner">
+            <div class="inner lazyload">
                 <header class="major">
                     <h1>Hey, I'm Ben.</h1>
                 </header>
@@ -93,10 +93,10 @@
         <div id="main">
 
             <!-- One -->
-            <section id="one" class="tiles lazy">
+            <section id="one" class="tiles">
                 <article>
                     <span class="image">
-                        <img src="images/pic01-min.png" alt="Nustep Website" />
+                        <img src="images/pic01-min.png" class="lazyload" alt="Nustep Website" />
                     </span>
                     <header class="major">
                         <h3><a href="https://nustep.com" target="_blank" class="link" target="_blank">NuStep</a></h3>
@@ -107,7 +107,7 @@
                 </article>
                 <article>
                     <span class="image">
-                        <img src="images/pic03-min.png" alt="The Space Website" />
+                        <img src="images/pic03-min.png" class="lazyload" alt="The Space Website" />
                     </span>
                     <header class="major">
                         <h3><a href="https://www.discoverthespace.com" class="link" target="_blank">The Space</a></h3>
@@ -118,7 +118,7 @@
                 </article>
                 <article>
                     <span class="image">
-                        <img src="images/pic02-min.png" alt="BLVD Suites Website" />
+                        <img src="images/pic02-min.png" class="lazyload" alt="BLVD Suites Website" />
                     </span>
                     <header class="major">
                         <h3><a href="https://blvdsuites.com/" class="link" target="_blank">BLVD Suites</a></h3>
@@ -129,7 +129,7 @@
                 </article>
                 <article>
                     <span class="image">
-                        <img src="images/mixer-media.png" alt="Mixer Media Website" />
+                        <img src="images/mixer-media.png" class="lazyload" alt="Mixer Media Website" />
                     </span>
                     <header class="major">
                         <h3><a href="https://mixermedia.co" class="link" target="_blank">Mixer Media</a></h3>
@@ -140,7 +140,7 @@
                 </article>
                 <article>
                     <span class="image">
-                        <img src="images/hfv-min.png" alt="Henry Ford Village Website" />
+                        <img src="images/hfv-min.png" class="lazyload" alt="Henry Ford Village Website" />
                     </span>
                     <header class="major">
                         <h3><a href="http://henryfordvillage.com" class="link" target="_blank">Henry Ford Village</a></h3>
@@ -151,7 +151,7 @@
                 </article>
                 <article>
                     <span class="image">
-                        <img src="images/the-fuel-min.png" alt="The Fuel Website" />
+                        <img src="images/the-fuel-min.png" class="lazyload" alt="The Fuel Website" />
                     </span>
                     <header class="major">
                         <h3><a href="https://www.discoverthefuel.com/" class="link" target="_blank">The Fuel</a></h3>
@@ -280,7 +280,7 @@
     </div>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="assets/js/jquery.lazy.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
@@ -288,6 +288,10 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script>
+    lazyload();
+    </script>
+
 
 </body>
 
